@@ -7,105 +7,17 @@
 
 
 
-.font {
-    font-family: 'Playfair Display';
-    font-size: 60px;
 
-}
 
 .flex {
     display: flex;
 
 }
 
-.conteneur {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-}
-
-.between {
-    justify-content: space-between;
-}
-
 .bg1 {
-    background-image: url(photo/.jpg);
-    width: 100%;
-    font-size: 30px;
-    background-repeat: no-repeat;
+    background-image: url(photo/bg1.jpg);
     background-size: cover;
-    background-position: center;
-    height: 50px;
-    margin-top: 10px;
-    padding: 100px;
-
-}
-
-.body {
-    background-color: #d77e35;
-   
-}
-
-.texte {
-    
-    text-align: center;
-    color: white;
-
-
-
-}
-
-.cards {
-
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    gap: 70px;
-    padding: 30px 20px;
-    
-
-}
-
-.card {
-    flex: 1;
-    max-width: 300px;
-    color: white;
-    text-align: center;
-
-
-
-}
-
-.cardimg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    margin-bottom: 50px;
-    margin-top: 100px;
-}
-
-h3 {
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-
-
-.bg2 {
-    background-color: #763500;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.text2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
-    line-height: 22px;
-
+    padding:  100px;
 
 }
 
@@ -118,24 +30,12 @@ h3 {
     padding-bottom: 30px;
     display: block;
 
-
-
-
-
 }
 
-.text {
-    
-    text-align: center;
-    text-decoration: none;
-    line-height: 32px;
-    gap: 50px;
-
-}
-
-.align {
-    text-align: center;
-
+.bg2 {
+    background-color: #763500;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -151,26 +51,18 @@ h3 {
 }
 
 .bgav {
-    background-image: url(photo/avis\ client.jpg);
+    background-image: url(photo/NOUVEAU.jpg);
     color: white;
     width: 100%;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200PX;
-    margin-top: 100PX;
-    padding-top: 80px;
-    margin-bottom: 10px;
+    height: 200px;
+    margin-top: 100px;
+
+    padding-top: 60px;
     font-size: 70px;
 
-}
-
-.margintop {
-    margin-top: 80px;
-}
-
-.border {
-    border-radius: 50px;
 }
 
 .btn {
@@ -183,6 +75,7 @@ h3 {
     margin-bottom: 10px;
 }
 
+
 .acheter {
     display: inline-block;
     text-decoration: none;
@@ -193,12 +86,115 @@ h3 {
     align-items: center;
     margin-top: 30px;
 
+}
+
+.conteneur {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+
+
+.body {
+    background-color: #d77e35;
+
+}
+
+.texte {
+
+    text-align: center;
+    color: white;
+
 
 
 }
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    color: white;
+
+
+}
+
+.text2bis {
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    color: white;
+}
+
 
 .text3 {
     font-size: 15px;
 
 }
 
+.text {
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    gap: 50px;
+
+}
+
+.cards {
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px 20px;
+
+
+}
+
+.card {
+
+    max-width: 300px;
+    color: rgb(6, 4, 4);
+    text-align: center;
+
+
+
+}
+
+.cardimg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+
+
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.margintop {
+    margin-top: 80px;
+}
+
+.border {
+    border-radius: 50px;
+}
+
+
+.debut {
+    text-align: center;
+    color: white;
+   font-size: 30px;
+    
+}
